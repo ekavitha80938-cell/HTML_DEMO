@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS DEMONSTRATION</title>
+</head>
+
+<body>
+    <!-- INLINE CSS EXAMPLE -->
+    <div>
+
+        <h1 style="color:rgba(51,231,80,0.6) ; text-align: center; font-size: large" ;>WELCOME TO CSS DEMONSTRATION
+        </h1>
+        <p style="color: blue; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"></p>
+    </div>
+    <h2>
+        This is used for internal css
+    </h2>
+    <h3>This is subheading</h3>
+    <h4>This is sub-subheading</h4>
+    <p id="INLINE-CSS-EXAMPLE"> This paragraph is styled using internal CSS.</p>
+     <div Class="country">
+         <h2>india</h2>
+         <p>capital : New delhi</p>
+      </div>
+      <div Class="country">
+            <h2>USA</h2>
+            <P>Capital : washington, D.c.</P>
+        </div>
+        <div Class="country">
+            <h2>France</h2>
+            <p>capital : paris</p>
+        </div>
+        <button>click me</button>
+        <style>
+            *{
+                margin: 10px;
+                padding: 10px;
+                box-sizing: border-box;
+
+            }
+
+            .country {
+                border: 2px solid black;
+                padding: 10px;
+                margin: 10px;
+                background-color: aqua;
+
+            }
+
+            #internal-css-example {
+                color: green;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            h2,
+            h3,
+            h4 {
+                color: darkblue;
+            }
+
+            button {
+                background-color: orange;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+            }
+        </style>
+        <!--EXTERNAL CSS EXAMPLE-->
+        <h2>This is used for External css</h2>
+        <p>This paragraph is styled using external css.</p>
+        <link rel="stylesheet" href="styles.css">
+
+</body>
+
+</html>
